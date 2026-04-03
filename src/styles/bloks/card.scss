@@ -1,4 +1,4 @@
-@use '../utils/variables.scss' as *;
+@use '../utils/variables' as *;
 
 .card {
   color: $card-color;
@@ -26,7 +26,7 @@
   &__code {
     margin-top: 4px;
     font-size: 10px;
-    color: #616070;
+    color: $color-secondary;
     line-height: 14px;
   }
   &__reviews {
@@ -43,7 +43,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 12px;
-    color: #616070;
+    color: $color-secondary;
     line-height: 18px;
   }
   &__cost {
@@ -59,15 +59,15 @@
     line-height: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #fff;
-    background-color: #00acdc;
-    border: 1px solid #00acdc;
+    color: $color-white;
+    background-color: $button-primary-color;
+    border: 1px solid $button-primary-color;
     border-radius: 5px;
     width: 100%;
     &:hover {
-      background-color: #fff;
-      color: #00acdc;
-      border-color: #00acdc;
+      background-color: $color-white;
+      color: $button-primary-color;
+      border-color: $button-primary-color;
     }
   }
 }
