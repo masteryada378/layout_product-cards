@@ -1,3 +1,10 @@
+@use './bloks/stars.scss';
+@use './bloks/card.scss';
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
 body {
   margin: 0;
 }
