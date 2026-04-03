@@ -11,6 +11,7 @@
 
   &__image {
     display: block;
+    height: 134px;
     width: 160px;
     margin: 0 auto;
   }
@@ -46,6 +47,7 @@
   &__cost {
     font-size: 16px;
     line-height: 18px;
+    color: #060b35;
   }
   &__button {
     text-align: center;
@@ -57,11 +59,13 @@
     text-transform: uppercase;
     color: #fff;
     background-color: #00acdc;
-    border: 1px solid currentColor;
+    border: 1px solid #00acdc;
     border-radius: 5px;
+    width: 100%;
     &:hover {
       background-color: #fff;
       color: #00acdc;
+      border-color: #00acdc;
     }
   }
 }
